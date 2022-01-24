@@ -248,7 +248,8 @@ footer {
     overflow: hidden;
     text-align: center;
     box-sizing: border-box;
-    transition: 0.2s;
+    transition: 0.2s; 
+    align-self: center;
 }
 
 #overlay-list li:hover {
@@ -263,7 +264,7 @@ footer {
 
 #overlay-list li figure {
     width: 300px;
-    height: 150px;
+    height: 200px;
     margin: 0 auto;
 } 
 
