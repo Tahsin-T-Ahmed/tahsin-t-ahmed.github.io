@@ -22,20 +22,24 @@ document.querySelector("#exit").addEventListener("click", function() {
 
 let navLinks = document.querySelectorAll("#orbits-container a");
 
+//Add event listeners to nav links
 for (var i=0; i < navLinks.length; i++) {
     navLinks[i].addEventListener("click", function(e) {
+        //display overlay
         overlay.style.display = "block";
         setTimeout(()=>{overlay.style.opacity = "1";}, 1);
         overlayTitle.innerHTML = this.querySelector("text").innerHTML;
 
-        
+        //populate overlay with data
         getItems(overlayTitle.innerHTML.toLowerCase());
     });
 }
 
 function getItems(clickedLink) { 
+    //get info from data.js
     var list = linkData[clickedLink];
-    console.log(list);
+
+    //populate overlay with data.js object
     for (var i=0; i < list.length; i++) { 
         var item = list[i];
         var itemHTML = "";
