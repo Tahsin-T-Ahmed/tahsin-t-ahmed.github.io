@@ -48,6 +48,35 @@ let linkData = {
     ], 
 
     "work": [
-        
+        {
+            "title": "Spaceship Game", 
+            "preview": "<img src='./img/spaceship-game.png' />", 
+            "link": "https://editor.p5js.org/Tahsin-T-Ahmed/full/0XpBDQET-", 
+            "caption": "NeoGeo-inspired asteroid game"
+        }, 
+        {
+            "title": "Bouncing Balls Game", 
+            "preview": "<img src='./img/bouncing-balls-game.png' />", 
+            "link": "https://editor.p5js.org/Tahsin-T-Ahmed/full/UFEUkvc7M", 
+            "caption": "Inspired by DX Ball"
+        }, 
+        {
+            "title": "Dancing Queen Game", 
+            "preview": "<img src='./img/dancing-queen-game.png' />", 
+            "link": "https://editor.p5js.org/Tahsin-T-Ahmed/full/fBFzPaK7b", 
+            "caption": "Chess-inspired horde game"
+        }, 
+        {
+            "title": "Trump Game", 
+            "preview": "<img src='./img/trump-game.png' />", 
+            "link": "https://editor.p5js.org/Tahsin-T-Ahmed/full/SLadRhQm2", 
+            "caption": "Funny game about Donald Trump's hair"
+        },
+        {
+            "title": "Starry Night Sky", 
+            "preview": "<img src='./img/starry-sky.png' />", 
+            "link": "https://editor.p5js.org/Tahsin-T-Ahmed/full/KipH31GJw", 
+            "caption": "Stars glimmering in outer space"
+        }
     ]
 };
