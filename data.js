@@ -1,10 +1,52 @@
 let linkData = {
     "skills": [
         {
-            "title": "Adobe Creative Cloud", 
-            "preview": "<img src='./img/adobe-cc.png' />", 
+            "title": "jQuery", 
+            "preview": "<img src='./img/jquery-logo.png' />", 
             "link": "", 
-            "caption": "Animation, Web Design, Graphic Design"
+            "caption": "Front-End Interactivity & Design"
+        }, 
+        {
+            "title": "PHP", 
+            "preview": "<img src='./img/php-logo.png' />", 
+            "link": "", 
+            "caption": "Front-End & Back-End Development"
+        }, 
+        {
+            "title": "SASS (SCSS)", 
+            "preview": "<img src='./img/sass-logo.png' />", 
+            "link": "", 
+            "caption": "Webpage Styling & Design"
+        }, 
+        {
+            "title": "P5.js", 
+            "preview": "<img src='./img/p5js-logo.png' />", 
+            "link": "", 
+            "caption": "Web-based Art, Games, & Graphics"
+        }, 
+        {
+            "title": "Python", 
+            "preview": "<img src='./img/python-logo.png' />", 
+            "link": "", 
+            "caption": "Programming / Software Development"
+        }, 
+        {
+            "title": "Adobe Illustrator", 
+            "preview": "<img src='./img/illustrator-logo.png' />", 
+            "link": "", 
+            "caption": "Web Design, 2D Vector Art"
+        }, 
+        {
+            "title": "Adobe After Effects", 
+            "preview": "<img src='./img/after-effects-logo.png' />", 
+            "link": "", 
+            "caption": "Animation, Video Editing, Special Effects"
+        }, 
+        {
+            "title": "Adobe Photoshop", 
+            "preview": "<img src='./img/photoshop-logo.png' />", 
+            "link": "", 
+            "caption": "Photo Editing, Art"
         }, 
         {
             "title": "Blender 3D", 
@@ -13,16 +55,34 @@ let linkData = {
             "caption": "CGI, 3D Modeling, 3D Animation"
         },
         {
-            "title": "Linux Multimedia Studio (LMMS)", 
-            "preview": "<img src='./img/lmms.jpg' />", 
-            "link": "", 
-            "caption": "Digital Music / Soundtrack Production"
-        },
-        {
             "title": "Sony Vegas Pro", 
             "preview": "<img src='./img/sony-vegas-pro.png' />",
             "link": "", 
             "caption": "Video Editing, Special Effects"
+        }, 
+        {
+            "title": "GIMP", 
+            "preview": "<img src='./img/gimp-logo.png' />", 
+            "link": "", 
+            "caption": "Photo Editing, Art"
+        },
+        {
+            "title": "Adobe Premiere Pro", 
+            "preview": "<img src='./img/premiere-pro-logo.png' />", 
+            "link": "", 
+            "caption": "Video Editing, Compilation"
+        },
+        {
+            "title": "Adobe Creative Cloud", 
+            "preview": "<img src='./img/adobe-cc.png' />", 
+            "link": "", 
+            "caption": "Animation, Web Design, Graphic Design"
+        }, 
+        {
+            "title": "Linux Multimedia Studio (LMMS)", 
+            "preview": "<img src='./img/lmms.jpg' />", 
+            "link": "", 
+            "caption": "Digital Music / Soundtrack Production"
         }
     ],
 
