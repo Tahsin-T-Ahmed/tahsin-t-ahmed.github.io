@@ -49,7 +49,7 @@ function getItems(clickedLink) {
 
         //processing itemHTML's markup
         itemHTML += "<li>";
-        item.link ? itemHTML += `<a href="${item.link}">` : "";
+        item.link ? itemHTML += `<a target='_blank' href="${item.link}">` : "";
         itemHTML +=
             `<h4>${item.title}</h4>
             <figure>
