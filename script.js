@@ -20,6 +20,13 @@ document.querySelector("#exit").addEventListener("click", function() {
     setTimeout(clearOverlay, 500);
 });
 
+document.querySelector("body").addEventListener("keyup", function(keyPressed) {
+    if (keyPressed.key == 'Escape') {
+        hideOverlay();
+        setTimeout(clearOverlay, 500);
+    }
+});
+
 let navLinks = document.querySelectorAll("#orbits-container a");
 
 //Add event listeners to nav links
