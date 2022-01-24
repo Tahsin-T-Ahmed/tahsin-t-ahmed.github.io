@@ -55,8 +55,8 @@ function getItems(clickedLink) {
             <figure>
                 ${item.preview}`
 
-            item.caption ? itemHTML += `<figcaption>${item.caption}</figcaption>`: "";
             itemHTML += "</figure>";
+            item.caption ? itemHTML += `<figcaption>${item.caption}</figcaption>`: "";
             item.link ? itemHTML += "</a>" : "";
         itemHTML += "</li>";
 
