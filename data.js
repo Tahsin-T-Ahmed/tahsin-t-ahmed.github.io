@@ -4,25 +4,25 @@ let linkData = {
             "title": "Adobe Creative Cloud", 
             "preview": "<img src='./img/adobe-cc.png' />", 
             "link": "", 
-            "caption": ""
+            "caption": "Animation, Web Design, Graphic Design"
         }, 
         {
             "title": "Blender 3D", 
             "preview": "<img src='./img/blender3d.png' />", 
             "link": "", 
-            "caption": ""
+            "caption": "CGI, 3D Modeling, 3D Animation"
         },
         {
             "title": "Linux Multimedia Studio (LMMS)", 
             "preview": "<img src='./img/lmms.jpg' />", 
             "link": "", 
-            "caption": ""
+            "caption": "Digital Music / Soundtrack Production"
         },
         {
             "title": "Sony Vegas Pro", 
             "preview": "<img src='./img/sony-vegas-pro.png' />",
             "link": "", 
-            "caption": ""
+            "caption": "Video Editing, Special Effects"
         }
     ],
 
