@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Humani-tree</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="app">
+        <svg class="tree">
+            <!-- BRANCHES -->
+
+            <!-- Australopithecus to Kenyanthropus -->
+            <line class="branch" x1=50 y1=250 x2=50 y2=100 />       <!--UP-->
+            <path class="branch" d="M 50 100 q 0 -50 50 -50" />     <!--CURVE-->
+            <line class="branch" x1=100 y1=50 x2=150 y2=50 />       <!--RIGHT-->
+
+            <!-- Australopithecus to Homo Naledi -->
+            <line class="branch" x1=50 y1=250 x2=50 y2=400 />       <!--DOWN-->
+            <path class="branch" d="M 50 400 q 0 50 50 50" />       <!--CURVE-->
+            <line class="branch" x1=100 y1=450 x2=800 y2=450 />     <!--RIGHT-->
+
+            <!-- Australopithecus to Homo Habilis -->
+            <line class="branch" x1=50 y1=250 x2=250 y2=250 />
+
+            <!-- Homo Habilis to Homo Erectus -->
+            <line class="branch" x1=250 y1=250 x2=250 y2=200 />     <!--UP-->
+            <path class="branch" d="M 250 200 q 0 -50 50 -50" />    <!--CURVE-->
+            <line class="branch" x1=300 y1=150 x2=400 y2=150 />     <!--RIGHT-->
+
+            <!-- Homo Habilis to Homo Floresiensis -->
+            <line class="branch" x1=250 y1=250 x2=250 y2=350 />     <!--UP-->
+            <path class="branch" d="M 250 350 q 0 50 50 50" />      <!--CURVE-->
+            <line class="branch" x1=300 y1=400 x2=900 y2=400 />     <!--RIGHT-->
+
+            <!-- Homo Erectus to Homo Ergaster, Peking Man, Red Deer Cave People -->
+            <line class="branch" x1=400 y1=150 x2=400 y2=300 />     <!--DOWN-->
+            <path class="branch" d="M 400 300 q 0 50 50 50" />      <!--CURVE-->
+            <line class="branch" x1=450 y1=350 x2=850 y2=350 />     <!--RIGHT-->
+
+            <!-- Homo Erectus to Homo Ergaster -->
+            <path class="branch" d="M 450 350 q 0 -50 50 -50" />    <!--CURVE-->
+
+            <!-- Homo Erectus to Peking Man -->
+            <path class="branch" d="M 600 350 q 0 -50 50 -50" />    <!--CURVE-->
+
+            <!-- Homo Erectus to Red Deer Cave People -->
+            <path class="branch" d="M 850 350 q 50 0 50 -50" />     <!--CURVE-->
+
+            <!-- Homo Erectus to Homo Sapien -->
+            <line class="branch" x1=400 y1=150 x2=400 y2=100 />     <!--UP-->
+            <path class="branch" d="M 400 100 q 0 -50 50 -50" />    <!--CURVE-->
+            <line class="branch" x1=450 y1=50 x2=965 y2=50 />       <!--RIGHT-->
+
+            <!-- Homo Erectus to Homo Heidelbergensis -->
+            <line class="branch" x1=400 y1=150 x2=700 y2=150 />     <!--RIGHT-->
+
+            <!-- Homo Heidelbergensis to Homo Neanderthalensis -->
+            <path class="branch" d="M 700 150 q 0 -50 50 -50 " />   <!--CURVE-->
+            <line class="branch" x1=750 y1=100 x2=880 y2=100 />     <!--RIGHT-->
+            <!--INTERBREEDING: Homo Neanderthalensis with Homo Sapien-->
+            <path class="branch" d="M 800 100 q 50 0 50 -50" />     <!--CURVE-->
+
+            <!-- Homo Heidelbergensis to Homo Rhodesiensis -->
+            <path class="branch" d="M 700 150 q 0 50 50 50" />
+            <line class="branch" x1=750 y1=200 x2=800 y2=200 />     <!--RIGHT-->
+
+            <!-- Homo Heidelbergensis to Homo Denisovan -->
+            <line class="branch" x1=700 y1=150 x2=950 y2=150 />     <!--RIGHT-->
+            <!-- INTERBREEDING: Homo Denisovan to Homo Sapien -->
+            <path class="branch" d="M 870 150 q 50 0 50 -50" />     <!--CURVE-->
+            <line class="branch" x1=920 y1=100 x2=920 y2=50 />      <!--UP-->
+
+
+            <!-- /BRANCHES -->
+
+            <!-- NODES -->
+
+            <!-- Australopithecus -->
+            <a class="node" id="australopithecus">
+                <circle cx=50 cy=250 />
+                <g>
+                    <rect x=70 y=190 width=138 />
+                    <text x=80 y=220>Australopithecus</text>
+                </g>
+            </a>
+
+            <!-- Kenyanthropus -->
+            <a class="node" id="kenyanthropus">
+                <circle cx=150 cy=50 />
+                <g>
+                    <rect x=180 y=25 width=128 />
+                    <text x=190 y=55>Kenyanthropus</text>
+                </g>
+            </a>
+
+            <!-- Homo Naledi -->
+            <a class="node" id="homo-naledi">
+                <circle cx=800 cy=450 />
+                <g>
+                    <rect x=830 y=425 width=113 />
+                    <text x="840" y="455">Homo Naledi</text>
+                </g>
+            </a>
+
+            <!-- Homo Habilis -->
+            <a class="node" id="homo-habilis">
+                <circle cx=250 cy=250 />
+                <g>
+                    <rect x=280 y=225 width=115 />
+                    <text x=290 y=255>Homo Habilis</text>
+                </g>
+            </a>
+
+            <!-- Homo Floresiensis -->
+            <a class="node" id="homo-floresiensis">
+                <circle cx=900 cy=400 />
+                <g>
+                    <rect x=720 y=360 width=153 />
+                    <text x="730" y="390">Homo Floresiensis</text>
+                </g>
+            </a>
+            
+            <!-- Homo Erectus -->
+            <a class="node" id="homo-erectus">
+                <circle cx=400 cy=150 />
+                <g>
+                    <rect x=430 y=110 width=120 />
+                    <text x="440" y="140">Homo Erectus</text>
+                </g>
+            </a>
+
+            <!-- Homo Ergaster -->
+            <a class="node" id="homo-ergaster">
+                <circle cx=500 cy=300 />
+                <g>
+                    <rect x=460 y=225 width=128 />
+                    <text x="470" y="255">Homo Ergaster</text>
+                </g>
+            </a>
+            
+            <!-- Peking Man -->
+            <a class="node" id="peking-man">
+                <circle cx=650 cy=300 />
+                <g>
+                    <rect x=610 y=225 width=115 />
+                    <text x="620" y="255">"Peking Man"</text>
+                </g>
+            </a>
+            
+            <!-- Red Deer Cave People -->
+            <a class="node" id="red-deer-cave-people">
+                <circle cx=900 cy=300 />
+                <g>
+                    <rect x=790 y=225 width=198 />
+                    <text x="800" y="255">"Red Deer Cave People"</text>
+                </g>
+            </a>
+
+            <!-- Homo Sapien -->
+            <a class="node" id="homo-sapien">
+                <circle cx=800 cy=50 />
+                <g>
+                    <rect x=645 y=10 width=118 />
+                    <text x="655" y="40">Homo Sapien</text>
+                </g>
+            </a>
+
+            <!-- Homo Heidelbergensis -->
+            <a class="node" id="homo-heidelbergensis">
+                <circle cx=700 cy=150 />
+                <g>
+                    <rect x=490 y=140 width=180 />
+                    <text x="500" y="170">Homo Heidelbergensis</text>
+                </g>
+            </a>
+
+            <!-- Homo Neanderthalensis -->
+            <a class="node" id="homo-neanderthalensis">
+                <circle cx=880 cy=100 />
+                <g>
+                    <rect x=720 y=80 width=128 />
+                    <text x="730" y="110">"Neanderthals"</text>
+                </g>
+            </a>
+
+            <!-- Homo Rhodesiensis -->
+            <a class="node" id="homo-rhodesiensis">
+                <circle cx=800 cy=200 />
+                <g>
+                    <rect x=710 y=225 width=163 />
+                    <text x="720" y="255">Homo Rhodesiensis</text>
+                </g>
+            </a>
+
+            <!-- Homo Denisovan -->
+            <a class="node" id="homo-denisovan">
+                <circle cx=950 cy=150 />
+                <g>
+                    <rect x=880 y=175 width=115 />
+                    <text x="890" y="205">"Denisovans"</text>
+                </g>
+            </a>
+
+            <!-- Homo Sapien Sapien -->
+            <a class="node" id="modern-humans" href="http://youtu.be/dQw4w9WgXcQ" target="_blank">
+                <circle id="modern-human" cx=965 cy=50 />
+                <g>
+                    <rect x=790 y=40 width=138 />
+                    <text x="800" y="70">Modern Humans</text>
+                </g>
+            </a>
+
+            <!-- /NODES -->
+
+        </svg>
+        <div class="popup">
+            <div class="background-overlay"></div>
+            <svg id="exit">
+                <line x1=10 y1=10 x2=40 y2=40 />
+                <line x1=40 y1=10 x2=10 y2=40 />
+            </svg>
+
+            <section class="pictures">
+                <nav>
+                </nav>
+                <figure class="preview">Click on an image to preview.</figure>
+            </section>
+            <section class="details"></section>
+        </div>
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+</html>

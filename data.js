@@ -115,6 +115,12 @@ let linkData = {
             "caption": "NeoGeo-inspired asteroid game"
         }, 
         {
+            "title": "Oh, the Humani-tree!", 
+            "preview": "<img src='./img/humanitree.png' />", 
+            "link": "./humanitree/index.html", 
+            "caption": "Timeline of Human Evolution"
+        }, 
+        {
             "title": "Bouncing Balls Game", 
             "preview": "<img src='./img/bouncing-balls-game.png' />", 
             "link": "https://editor.p5js.org/Tahsin-T-Ahmed/full/UFEUkvc7M", 
