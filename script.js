@@ -41,9 +41,13 @@ function getItems(clickedLink) {
 
     //populate overlay with data.js object
     for (var i=0; i < list.length; i++) { 
+        //each "item" is a tile's key-value object
         var item = list[i];
+
+        //itemHTML will contain the markup code for each tile
         var itemHTML = "";
 
+        //processing itemHTML's markup
         itemHTML += "<li>";
         item.link ? itemHTML += `<a href="${item.link}">` : "";
         itemHTML +=
@@ -56,6 +60,9 @@ function getItems(clickedLink) {
             item.link ? itemHTML += "</a>" : "";
         itemHTML += "</li>";
 
+        console.log(itemHTML);
+
+        //adding itenHTML to webpage
         overlayList.innerHTML += itemHTML; 
     }
 }
