@@ -253,7 +253,7 @@ footer {
 }
 
 #overlay-list li:hover {
-    box-shadow: 0px 5px 20px 5px black;
+    box-shadow: 0px 5px 20px 10px black;
     color: rgb(255, 255, 150);
 }
 
