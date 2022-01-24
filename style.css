@@ -243,7 +243,6 @@ footer {
     max-width: 450px;
     background-color: black;
     border-radius: 10px;
-    border: solid 3px black;
     box-shadow: 0px 10px 20px 5px black;
     color: white;
     overflow: hidden;
@@ -253,9 +252,7 @@ footer {
 }
 
 #overlay-list li:hover {
-    box-shadow: 0px 20px 30px 10px black;
-    border-radius: 20px;
-    border-color: rgb(255, 255, 150);
+    box-shadow: 0px 0px 10px 10px black;
     color: rgb(255, 255, 150);
 }
 
@@ -266,7 +263,7 @@ footer {
 
 #overlay-list li figure {
     width: 300px;
-    height: 200px;
+    height: 150px;
     margin: 0 auto;
 } 
 
