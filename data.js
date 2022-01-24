@@ -1,5 +1,5 @@
 let linkData = {
-    "about": [
+    "skills": [
         {
             "title": "Adobe Creative Cloud", 
             "preview": "<img src='./img/adobe-cc.png' />", 

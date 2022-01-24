@@ -92,7 +92,7 @@ g#work {
     animation-duration: 60s;
 }
 
-g#about {
+g#skills {
     animation-duration: 50s;
     animation-direction: reverse;
 }
@@ -115,7 +115,7 @@ g#work text {
     animation-direction: reverse;
 }
 
-g#about text {
+g#skills text {
     animation-duration: 50s;
     transform-origin: calc(50% - 100px) 50%;
 }
