@@ -25,10 +25,10 @@ let linkData = {
             "caption": "Web-based Art, Games, & Graphics"
         }, 
         {
-            "title": "Python", 
-            "preview": "<img src='./img/python-logo.png' />", 
+            "title": "Figma", 
+            "preview": "<img src='./img/figma-logo.png' />", 
             "link": "", 
-            "caption": "Programming / Software Development"
+            "caption": "Web Design, Wireframes, & Mockups"
         }, 
         {
             "title": "Adobe Illustrator", 
