@@ -105,12 +105,6 @@ let linkData = {
             "link": "https://www.linkedin.com/in/tahsin-t-ahmed/",
             "caption": "in/tahsin-t-ahmed"
         },
-        {
-            "title": "YouTube",
-            "preview": "<img src='./img/youtube-logo.png' />",
-            "link": "https://www.youtube.com/channel/UCBihwFyzl7OkFn_spPRq3rg",
-            "caption": "Animation & Video Projects"
-        }
     ], 
 
     "work": [
